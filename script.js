@@ -58,8 +58,8 @@
             };
         } catch (error) {
             return {
-                'IP Address': 'Couldnt Catch IP',
-                'Geolocation': 'Couldnt Catch IP',
+                'IP Address': 'Couldnt Find IP ',
+                'Geolocation': 'Couldnt Find Location',
             };
         }
     }
