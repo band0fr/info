@@ -1,1 +1,99 @@
-QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9Um9ib3RvK01vbm86d2dodEA0MDA7NzAwJmRpc3BsYXk9c3dhcCcpOwoKYm9keSB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwOwogICAgY29sb3I6Izk0MDBkMzsKICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIE1vbm8nLCBtb25vc3BhY2U7CiAgICBwYWRkaW5nOiAwOwogICAgbWFyZ2luOiAwOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgb3ZlcmZsb3c6IGhpZGRlbjsKfQoKLmJ1dHRvbi1jb250YWluZXIgewogICAgZGlzcGxheTogZmxleDsKICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgIGhlaWdodDogMTAwdmg7Cn0KCi5jbGljay1idXR0b24gewogICAgcGFkZGluZzogMTVweCAzMHB4OwogICAgZm9udC1zaXplOiAyOHB4OwogICAgY29sb3I6ICM5NDAwZDM7CiAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgYm9yZGVyOiAycHggc29saWQgIzAwZjsKICAgIGN1cnNvcjogcG9pbnRlcjsKICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOwogICAgbGV0dGVyLXNwYWNpbmc6IDJweDsKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIG92ZXJmbG93OiBoaWRkZW47CiAgICB0cmFuc2l0aW9uOiBjb2xvciAwLjVzIGVhc2U7CiAgICB6LWluZGV4OiAxOwp9CgouY2xpY2stYnV0dG9uOjpiZWZvcmUgewogICAgY29udGVudDogJyc7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICBsZWZ0OiAwOwogICAgdG9wOiAwOwogICAgd2lkdGg6IDEwMCU7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoMCwgMCwgMjU1LCAwLjUpLCB0cmFuc3BhcmVudCk7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTEwMCUpOwogICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuNXMgZWFzZTsKICAgIHotaW5kZXg6IC0xOwp9CgouY2xpY2stYnV0dG9uOmhvdmVyOjpiZWZvcmUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKDEwMCUpOwp9CgouY2xpY2stYnV0dG9uOmhvdmVyIHsKICAgIGNvbG9yOiAjMDBmOwp9CgouY29udGFpbmVyIHsKICAgIGRpc3BsYXk6IG5vbmU7CiAgICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgICB3aWR0aDogMTAwJTsKICAgIGhlaWdodDogMTAwdmg7CiAgICBvdmVyZmxvdzogaGlkZGVuOwp9Cgouc2Nyb2xsaW5nLWluZm8td3JhcHBlciB7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICB0b3A6IDA7CiAgICBsZWZ0OiAwOwogICAgd2lkdGg6IDEwMCU7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBvdmVyZmxvdzogaGlkZGVuOwp9Cgouc2Nyb2xsaW5nLWluZm8gewogICAgcG9zaXRpb246IGFic29sdXRlOwogICAgd2lkdGg6IDEwMCU7CiAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7CiAgICBmb250LWZhbWlseTogJ0NvdXJpZXIgTmV3JywgQ291cmllciwgbW9ub3NwYWNlOwogICAgbGluZS1oZWlnaHQ6IDEuNTsKICAgIGFuaW1hdGlvbjogc2Nyb2xsLXVwIDEwcyBsaW5lYXIgaW5maW5pdGU7Cn0KCkBrZXlmcmFtZXMgc2Nyb2xsLXVwIHsKICAgIGZyb20gewogICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxMDAlKTsKICAgIH0KICAgIHRvIHsKICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTEwMCUpOwogICAgfQp9CgouaW5mby1saW5lIHsKICAgIG1hcmdpbi1ib3R0b206IDVweDsKfQoKYXVkaW8gewogICAgZGlzcGxheTogbm9uZTsKfQ==
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    background-color: #000;
+    color:#9400d3;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.click-button {
+    padding: 15px 30px;
+    font-size: 28px;
+    color: #9400d3;
+    background: none;
+    border: 2px solid #00f;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.5s ease;
+    z-index: 1;
+}
+
+.click-button::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.5), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    z-index: -1;
+}
+
+.click-button:hover::before {
+    transform: translateX(100%);
+}
+
+.click-button:hover {
+    color: #00f;
+}
+
+.container {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.scrolling-info-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scrolling-info {
+    position: absolute;
+    width: 100%;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    animation: scroll-up 10s linear infinite;
+}
+
+@keyframes scroll-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+.info-line {
+    margin-bottom: 5px;
+}
+
+audio {
+    display: none;
+}
