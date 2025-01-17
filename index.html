@@ -22,7 +22,11 @@
         .button-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start; /* Changed alignment */
+            position: absolute; /* Positioned to the side */
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%); /* Center vertically */
             animation: fadeIn 1.5s ease-in-out;
         }
 
