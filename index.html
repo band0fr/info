@@ -1,22 +1,99 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkHome</title>
+    <title>MiniGame: Click to Play</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #4facfe, #00f2fe);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .click-button {
+            background-color: #ff6f61;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+
+        .click-button:hover {
+            transform: scale(1.1);
+            background-color: #ff8561;
+        }
+
+        .container {
+            display: none;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        .scrolling-info-wrapper {
+            overflow: hidden;
+            height: 50px;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .scrolling-info {
+            white-space: nowrap;
+            display: inline-block;
+            animation: scrollLeft 10s linear infinite;
+        }
+
+        @keyframes scrollLeft {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 
     <div class="button-container">
-        <button class="click-button" id="startButton">click Here to Play!</button>
+        <button class="click-button" id="startButton">Click Here to Play!</button>
     </div>
 
     <div class="container" id="infoContainer">
-        <h1>U GOT LOGGED DUMB ASS NIGGA</h1>
+        <h1>Welcome to the MiniGame!</h1>
         <div class="scrolling-info-wrapper">
-            <div id="deviceInfo" class="scrolling-info"></div>
+            <div id="deviceInfo" class="scrolling-info">Gathering information...</div>
         </div>
     </div>
 
@@ -25,6 +102,23 @@
         Your browser does not support the audio element.
     </audio>
 
-    <script src="script.js"></script>
+    <script>
+        const startButton = document.getElementById('startButton');
+        const infoContainer = document.getElementById('infoContainer');
+        const deviceInfo = document.getElementById('deviceInfo');
+        const backgroundMusic = document.getElementById('backgroundMusic');
+
+        startButton.addEventListener('click', () => {
+            infoContainer.style.display = 'block';
+            startButton.style.display = 'none';
+
+            // Start the background music
+            backgroundMusic.play();
+
+            // Populate scrolling information dynamically
+            deviceInfo.textContent = 'Welcome to the game! Explore, click, and have fun!';
+        });
+    </script>
+
 </body>
 </html>
