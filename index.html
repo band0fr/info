@@ -1,77 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniGame: Click to Play</title>
+    <title>LinkHome</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #4facfe, #00f2fe);
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start; /* Changed alignment */
-            position: absolute; /* Positioned to the side */
-            left: 20px;
-            top: 50%;
-            transform: translateY(-50%); /* Center vertically */
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        .click-button {
-            background-color: #ff6f61;
-            border: none;
-            padding: 15px 30px;
-            font-size: 20px;
-            font-weight: bold;
-            color: white;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: transform 0.3s, background-color 0.3s;
-        }
-
-        .click-button:hover {
-            transform: scale(1.1);
-            background-color: #ff8561;
-        }
-
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        audio {
-            display: none;
-        }
-    </style>
 </head>
 <body>
 
     <div class="button-container">
-        <h1>Welcome to the MiniGame!</h1>
-        <button class="click-button" id="startButton">Click Here to Play!</button>
+        <button class="click-button" id="startButton">click Here to Play!</button>
+    </div>
+
+    <div class="container" id="infoContainer">
+        <h1>U GOT LOGGED DUMB ASS NIGGA</h1>
+        <div class="scrolling-info-wrapper">
+            <div id="deviceInfo" class="scrolling-info"></div>
+        </div>
     </div>
 
     <audio id="backgroundMusic" loop>
@@ -79,18 +25,6 @@
         Your browser does not support the audio element.
     </audio>
 
-    <script>
-        const startButton = document.getElementById('startButton');
-        const backgroundMusic = document.getElementById('backgroundMusic');
-
-        startButton.addEventListener('click', () => {
-            // Start the background music
-            backgroundMusic.play();
-
-            // Simulate a transition to the game
-            alert('Get ready to play the MiniGame!');
-        });
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
